@@ -19,3 +19,4 @@ if len(lines) != len(expected):
 
 for solution, expected in zip(lines, expected):
     assert solution == expected, f"Expected: {expected}\nGot: {solution}"
+
