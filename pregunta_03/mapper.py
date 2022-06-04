@@ -3,7 +3,5 @@
 #
 import sys
 if __name__ == "__main__":
-    for line in sys.stdin:
-        beta=line.split(",")[0]
-        alfa=line.split(",")[1]
-        sys.stdout.write("{}\t{}\n".format(beta,alfa))
+            for line in sys.stdin:
+                sys.stdout.write("{}".format(line))
