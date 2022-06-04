@@ -15,6 +15,8 @@ if __name__ == "__main__":
         # genera las tuplas palabra \tabulador 1
         # ya que es un conteo de palabras
         #
-        beta=line.split(",")[3]
-        alfa= line.split(",")[4]
-        sys.stdout.write("{}\t1\n".format(beta,alfa))
+        
+            #
+            # escribe al flujo estandar de salida
+            #
+            sys.stdout.write("{}\t{}\n".format(line.split(',')[3],line.split(',')[4]))
