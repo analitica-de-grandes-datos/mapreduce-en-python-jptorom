@@ -26,10 +26,10 @@ if __name__ == '__main__':
                 # con la misma clave se imprime el resultado en
                 # el flujo de salida
                 #
-            sys.stdout.write("{}   {}   {}\n".format(curkey, date, total))
+            sys.stdout.write("{}{}{}\n".format(curkey, date, total))
 
         curkey = key
         total = val
         date = date
 
-    sys.stdout.write("{}   {}   {}\n".format(curkey, date, total))
+    sys.stdout.write("{}{}{}\n".format(curkey, date, total))
