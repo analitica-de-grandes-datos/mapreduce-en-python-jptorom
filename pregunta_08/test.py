@@ -21,3 +21,4 @@ for solution, expected in zip(lines, expected):
     assert (
         solution.strip() == expected.strip()
     ), f"Expected: {expected}\nGot: {solution}"
+    
