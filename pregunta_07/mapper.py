@@ -15,3 +15,4 @@ if __name__ == "__main__":
         # ya que es un conteo de palabras
         #
         sys.stdout.write("{}\t{}\t{}\n".format(line.split()[0],line.split()[1],line.split()[2]))
+        
